@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 89c6283ed4a7a914db4ed32d9fe4be1b
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+labels:
+- Cinema
+- Director
+DefaultImporter:
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
 guid: 630bf89a42bf760458299c96a71e7f04
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+labels:
+- Cutscene
+- Sequencer
+- Usequencer
+DefaultImporter:
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 

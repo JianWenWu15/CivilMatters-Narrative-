@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: d4762985b08cf424d8a389bd106e9c41
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+labels:
+- Hud
+- Hudtext
+DefaultImporter:
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 
