@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: d8244e47333fea34cabbe75f30b489cd
+<<<<<<< HEAD
+DefaultImporter:
+  externalObjects: {}
+=======
 labels:
 - Rpg
 - Ork
 - Okashi
 DefaultImporter:
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 

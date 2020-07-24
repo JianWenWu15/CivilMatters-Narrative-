@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 0439b345dc19afc4e9e38a45964c21d2
+<<<<<<< HEAD
+DefaultImporter:
+  externalObjects: {}
+=======
 labels:
 - Rpg
 - Rpgkit
 - Zerano
 DefaultImporter:
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 
