@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 591f03d957c3f324e83c2c2372ab65de
 DefaultImporter:
+<<<<<<< HEAD:Assets/Prefabs/hotDog.unitypackage.meta
   externalObjects: {}
+=======
+<<<<<<< HEAD
+  externalObjects: {}
+=======
+>>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
+>>>>>>> 49647da25b965b725f9625b77c073919a8c87454:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Corgi Support.unitypackage.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

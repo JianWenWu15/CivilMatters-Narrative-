@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: 2ce9bfedd125d1c49adb5c65c9e8ce53
-folderAsset: yes
+guid: a60eb26401f5d2e40a3f8ad3a0cdd2ae
 <<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
 =======
-timeCreated: 1435432572
-licenseType: Store
+labels:
+- Playmaker
 DefaultImporter:
 >>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
