@@ -1,18 +1,7 @@
 fileFormatVersion: 2
 guid: 03276c81a3b7e1f4f8b9a2c42d29ccb5
-<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
-=======
-labels:
-- FaceFX
-- Facial
-- Lip
-- Voice
-- Voiceover
-- Lipsync
-DefaultImporter:
->>>>>>> 1281bf86fcd5ca22765c9ea8b17202223fc2b64f
   userData: 
   assetBundleName: 
   assetBundleVariant: 
