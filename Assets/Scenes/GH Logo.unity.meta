@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/GH Logo.unity.meta
 guid: e2f35d2d5ab9c8441aca438fdb40479c
+=======
+guid: 69578b34b0b99fd408db1f26e709204b
+>>>>>>> demo:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Customizable SciFi Holo Interface Support.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
