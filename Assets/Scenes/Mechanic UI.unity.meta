@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Customizable SciFi Holo Interface Support.unitypackage.meta
 <<<<<<< HEAD
 guid: 69578b34b0b99fd408db1f26e709204b
 =======
@@ -8,6 +9,9 @@ guid: e2f35d2d5ab9c8441aca438fdb40479c
 guid: 69578b34b0b99fd408db1f26e709204b
 >>>>>>> demo:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Customizable SciFi Holo Interface Support.unitypackage.meta
 >>>>>>> demo
+=======
+guid: f1da7d51ee1acf84aaece05e837e8e68
+>>>>>>> 54d484def97e853f4f7ac323198bea70d450f66a:Assets/Scenes/Mechanic UI.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
