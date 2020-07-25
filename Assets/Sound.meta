@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Vendors/Plugins/Pixel Crushers/Common/Third Party Support/HUD Navigation System Support.unitypackage.meta
 <<<<<<< HEAD
 <<<<<<< HEAD:Assets/Vendors/Plugins/Pixel Crushers/Common/Third Party Support/HUD Navigation System Support.unitypackage.meta
 guid: 9d6eeb26838ae2140a98c7b012c07610
@@ -8,6 +9,10 @@ guid: 2133c1709cbeab043b2c0d4a09f8c560
 =======
 guid: 9d6eeb26838ae2140a98c7b012c07610
 >>>>>>> demo
+=======
+guid: 81845883aae8e654eb5414795c355c04
+folderAsset: yes
+>>>>>>> 54d484def97e853f4f7ac323198bea70d450f66a:Assets/Sound.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
