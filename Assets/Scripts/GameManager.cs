@@ -27,11 +27,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Global Variables?!
-<<<<<<< HEAD
     // private int howManyBattleWon = 0;
-=======
-    private int howManyBattleWon = 0;
->>>>>>> demo
 
     void Awake()
     {
