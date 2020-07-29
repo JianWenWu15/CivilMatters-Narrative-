@@ -362,8 +362,8 @@ MonoBehaviour:
         y: 139.55554
         width: 160
         height: 30
-    canvasScrollPosition: {x: 14.052916, y: 5.176154}
-    canvasZoom: 0.9
+    canvasScrollPosition: {x: 242.32422, y: 13.618399}
+    canvasZoom: 0.6000002
   - id: 2
     fields:
     - title: Title
