@@ -24,7 +24,6 @@ public class TensionBar : MonoBehaviour
     public void SetHealth(int tension)
     {
         slider.value = tension;
-
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 }

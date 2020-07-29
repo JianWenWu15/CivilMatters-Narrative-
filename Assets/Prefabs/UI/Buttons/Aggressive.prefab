@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2079618960794881385}
   - component: {fileID: 4647707259490391226}
   m_Layer: 5
-  m_Name: Start sound (2)
+  m_Name: Aggressive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
