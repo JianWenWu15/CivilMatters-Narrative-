@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBattle : MonoBehaviour
 {
-    public  int maxTension = 100;
+    public int maxTension = 100;
     public int currentTension;
     public TensionBar tensionBar;
     // Start is called before the first frame update
@@ -22,42 +22,39 @@ public class PlayerBattle : MonoBehaviour
         {
             AddTension(5);
         }
+        // if (Input.GetKeyDown(KeyCode.A))
+        // {
+        //     AddTension(10);
+        // }
 
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            AddTension(10);
-        }
+        // if (Input.GetKeyDown(KeyCode.D))
+        // {
+        //     AddTension(15);
+        // }
+        // //  remove tension
+        // if (Input.GetKeyDown(KeyCode.F))
+        // {
+        //     RemoveTension(5);
+        // }
 
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            AddTension(15);
-        }
-        //  remove tension
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            RemoveTension(5);
-        }
+        // if (Input.GetKeyDown(KeyCode.G))
+        // {
+        //     RemoveTension(10);
+        // }
 
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            RemoveTension(10);
-        }
-
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            RemoveTension(15);
-        }
+        // if (Input.GetKeyDown(KeyCode.H))
+        // {
+        //     RemoveTension(15);
+        // }
     }
     void RemoveTension(int damage)
     {
         currentTension -= damage;
-
         tensionBar.SetHealth(currentTension);
     }
     void AddTension(int damage)
     {
         currentTension += damage;
-
         tensionBar.SetHealth(currentTension);
     }
 }
