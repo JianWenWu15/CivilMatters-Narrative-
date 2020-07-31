@@ -12,7 +12,6 @@ public class TensionBar : MonoBehaviour
     {
         slider.value =  tension;
     }
-
     public void SetMaxTension(int tension)
     {
         slider.maxValue = tension;
@@ -20,7 +19,6 @@ public class TensionBar : MonoBehaviour
 
         fill.color = gradient.Evaluate(1f);
     }
-
     public void SetHealth(int tension)
     {
         slider.value = tension;
