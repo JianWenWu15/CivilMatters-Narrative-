@@ -6,17 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-
-    public enum GameState
-    {
-        INTRO,
-        BERKLAND,
-        BATTLE,
-        RESULTS,
-        ENDING
-    }
-    private GameState currentState = GameState.INTRO;
-
+    public enum GameState { Menu, NewsIntro, Berkland, BattleScene, Results }
+    private GameState currentState = GameState.Menu;
     public static GameManager Instance
     {
         get
@@ -27,6 +18,8 @@ public class GameManager : MonoBehaviour
     }
 
     // Global Variables?!
+    // private int aggressiveChoices = 0;
+    // public float tention = 100f;
     // private int howManyBattleWon = 0;
 
     void Awake()
@@ -46,16 +39,21 @@ public class GameManager : MonoBehaviour
     {
         switch (currentState)
         {
-            case GameState.INTRO:
+            case GameState.Menu:
                 break;
 
-            case GameState.BERKLAND:
+            case GameState.NewsIntro:
                 break;
 
-            case GameState.BATTLE:
+            case GameState.Berkland:
+                break;
+
+            case GameState.BattleScene:
+                break;
+
+            case GameState.Results:
                 break;
         }
-
     }
 
     public void SetState(GameState newState)
@@ -66,16 +64,24 @@ public class GameManager : MonoBehaviour
         // which state we are going to
         switch (currentState)
         {
-            case GameState.INTRO:
-                SceneManager.LoadScene("Main");
+            case GameState.Menu:
+                SceneManager.LoadScene("Menu");
                 break;
 
-            case GameState.BERKLAND:
+            case GameState.NewsIntro:
+                SceneManager.LoadScene("NewsIntro");
+                break;
+
+
+            case GameState.Berkland:
                 SceneManager.LoadScene("Berkland");
                 break;
 
-            case GameState.BATTLE:
-                SceneManager.LoadScene("Battle");
+            case GameState.BattleScene:
+                SceneManager.LoadScene("BattleScene");
+                break;
+            case GameState.Results:
+                SceneManager.LoadScene("Results");
                 break;
         }
     }

@@ -539,8 +539,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: USE_PHYSICS2D
-    13: 
+    1: USE_PHYSICS2D;USE_TWINE;USE_TWINE;USE_TWINE
+    13: USE_TWINE;USE_TWINE;USE_TWINE
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
