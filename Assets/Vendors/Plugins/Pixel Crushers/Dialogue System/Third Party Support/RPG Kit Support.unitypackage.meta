@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: 2ba9d49e92eb6394db6421e98e067818
-folderAsset: yes
+guid: 0439b345dc19afc4e9e38a45964c21d2
+labels:
+- Rpg
+- Rpgkit
+- Zerano
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

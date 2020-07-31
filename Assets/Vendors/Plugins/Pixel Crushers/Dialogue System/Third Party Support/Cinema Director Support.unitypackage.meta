@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 2ba9d49e92eb6394db6421e98e067818
-folderAsset: yes
+guid: 89c6283ed4a7a914db4ed32d9fe4be1b
+labels:
+- Cinema
+- Director
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

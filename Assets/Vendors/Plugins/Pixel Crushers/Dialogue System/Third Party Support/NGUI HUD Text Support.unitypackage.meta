@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 2ba9d49e92eb6394db6421e98e067818
-folderAsset: yes
+guid: d4762985b08cf424d8a389bd106e9c41
+labels:
+- Hud
+- Hudtext
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: 2ba9d49e92eb6394db6421e98e067818
-folderAsset: yes
+guid: d8244e47333fea34cabbe75f30b489cd
+labels:
+- Rpg
+- Ork
+- Okashi
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

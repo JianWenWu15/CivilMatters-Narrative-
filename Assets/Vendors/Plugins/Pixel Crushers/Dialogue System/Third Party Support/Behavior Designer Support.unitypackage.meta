@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 2ba9d49e92eb6394db6421e98e067818
-folderAsset: yes
+guid: 5a3da110bff34d54eb93d1c3c7755741
+labels:
+- Ai
+- Behavior
+- Behaviour
+- Designer
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
