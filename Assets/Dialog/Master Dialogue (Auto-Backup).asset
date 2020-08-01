@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Master Dialogue
+  m_Name: Master Dialogue (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 1.0
   author: Erik Salazar
@@ -230,7 +230,7 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 2800000, guid: 524f1d107083740318a14d5a38775003, type: 3}
+    portrait: {fileID: 2800000, guid: d90a2d7a4a84a15439fb9d36f7d41a43, type: 3}
     spritePortrait: {fileID: 8850011840085951318, guid: 59e71c11e37e64f42a3ddfba7b2386ca,
       type: 3}
     alternatePortraits: []
@@ -1710,7 +1710,7 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Pictures
         value: '[]'
         type: 3
@@ -1718,7 +1718,7 @@ MonoBehaviour:
       - title: Description
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Actor
         value: 1
         type: 5
@@ -1730,15 +1730,15 @@ MonoBehaviour:
       - title: Menu Text
         value: Aggressive
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Parenthetical
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Audio Files
         value: '[]'
         type: 3
@@ -1746,15 +1746,15 @@ MonoBehaviour:
       - title: Video File
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Sequence
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: EventGuid
         value: 29957205-0501-49f9-bae4-741fa7fabf70
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -1788,7 +1788,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 322.9093
+        x: 324.0304
         y: 171.85704
         width: 160
         height: 30
@@ -2253,8 +2253,8 @@ MonoBehaviour:
         y: 558.3442
         width: 160
         height: 30
-    canvasScrollPosition: {x: 353.976, y: 72.987656}
-    canvasZoom: 0.96699494
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.43599415
   syncInfo:
     syncActors: 0
     syncItems: 0
