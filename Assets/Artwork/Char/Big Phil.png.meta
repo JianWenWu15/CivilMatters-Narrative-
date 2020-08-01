@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 8a0bc9eeba4554744bc14939f616ddf8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4812978208032930285
+    second: character_sprite_protester1_0
+  - first:
+      213: -6224803791203324594
+    second: character_sprite_protester1_1
+  - first:
+      213: 1323236354909842525
+    second: character_sprite_protester1_2
+  - first:
+      213: 8704787870138731065
+    second: character_sprite_protester1_3
+  - first:
+      213: 8414277294738519179
+    second: character_sprite_protester1_4
+  - first:
+      213: 1727955631561681881
+    second: character_sprite_protester1_5
+  - first:
+      213: -310725364639243284
+    second: character_sprite_protester1_6
+  - first:
+      213: 3792382476122666171
+    second: character_sprite_protester1_7
+  - first:
+      213: 5628282197542488890
+    second: character_sprite_protester1_8
+  - first:
+      213: -6143975871135139989
+    second: character_sprite_protester1_9
+  - first:
+      213: 6606560338686011762
+    second: character_sprite_protester1_10
+  - first:
+      213: -630769634458344264
+    second: character_sprite_protester1_11
+  - first:
+      213: 6511575335164388580
+    second: character_sprite_protester1_12
+  - first:
+      213: 5589260174766349690
+    second: character_sprite_protester1_13
+  - first:
+      213: -3050490074546575686
+    second: character_sprite_protester1_14
+  - first:
+      213: -856991926932523395
+    second: character_sprite_protester1_15
+  - first:
+      213: 5469678418353900805
+    second: Big Phil_0
+  - first:
+      213: -9154972434227422195
+    second: Big Phil_1
+  - first:
+      213: 4003051140615798437
+    second: Big Phil_2
+  - first:
+      213: 8146577805828454452
+    second: Big Phil_3
+  - first:
+      213: 2903803932815921177
+    second: Big Phil_4
+  - first:
+      213: 8482831991841719882
+    second: Big Phil_5
+  - first:
+      213: -7135219195691434569
+    second: Big Phil_6
+  - first:
+      213: 3596061102909423315
+    second: Big Phil_7
+  - first:
+      213: 6289407382807372409
+    second: Big Phil_8
+  - first:
+      213: -3531352906064720906
+    second: Big Phil_9
+  - first:
+      213: -1680896362935121133
+    second: Big Phil_10
+  - first:
+      213: -1262337481618912693
+    second: Big Phil_11
+  - first:
+      213: 2526602562573425497
+    second: Big Phil_12
+  - first:
+      213: 2605525145502880950
+    second: Big Phil_13
+  - first:
+      213: -661941385897121622
+    second: Big Phil_14
+  - first:
+      213: -2273359175585374046
+    second: Big Phil_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Phil_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 196
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dca99ba8338eb40800000000000000
+      internalID: 5469678418353900805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 194
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c9161831103f080800000000000000
+      internalID: -9154972434227422195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 196
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae7026adc1bd8730800000000000000
+      internalID: 4003051140615798437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 194
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4387c7b1a557e0170800000000000000
+      internalID: 8146577805828454452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91010e8ba426c4820800000000000000
+      internalID: 2903803932815921177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 132
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a468b0ba0c219b570800000000000000
+      internalID: 8482831991841719882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 132
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd734e02fb9afc90800000000000000
+      internalID: -7135219195691434569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 134
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def3853586c7e130800000000000000
+      internalID: 3596061102909423315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972e3f321b6784750800000000000000
+      internalID: 6289407382807372409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb0879ed3d1efec0800000000000000
+      internalID: -3531352906064720906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8107e9a14ca8e0800000000000000
+      internalID: -1680896362935121133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 70
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a8175afb64b7ee0800000000000000
+      internalID: -1262337481618912693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bd7c6e4ab401320800000000000000
+      internalID: 2526602562573425497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b41c0fa05fa82420800000000000000
+      internalID: 2605525145502880950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 4
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8e87f01df40d6f0800000000000000
+      internalID: -661941385897121622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Phil_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0eb54efd76370e0800000000000000
+      internalID: -2273359175585374046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
