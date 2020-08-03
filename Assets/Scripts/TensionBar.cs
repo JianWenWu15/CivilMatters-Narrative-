@@ -7,10 +7,10 @@ public class TensionBar : MonoBehaviour
 { // Creating a public instance of Slider from Unity UI
     public Slider slider;
     public Gradient gradient;
-    public Image fill; 
+    public Image fill;
     public void SetTension(int tension)
     {
-        slider.value =  tension;
+        slider.value = tension;
     }
     public void SetMaxTension(int tension)
     {
