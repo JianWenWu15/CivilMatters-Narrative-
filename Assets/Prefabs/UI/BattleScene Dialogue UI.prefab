@@ -271,7 +271,7 @@ MonoBehaviour:
     menuPanels:
     - {fileID: 7188789223593273582}
     defaultMenuPanel: {fileID: 7188789223593273582}
-    useFirstResponseForMenuPortrait: 0
+    useFirstResponseForMenuPortrait: 1
   QTEIndicatorElements:
     QTEIndicators:
     - {fileID: 7188789224475792809}

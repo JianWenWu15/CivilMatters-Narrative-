@@ -22,30 +22,6 @@ public class PlayerBattle : MonoBehaviour
         {
             AddTension(5);
         }
-        // if (Input.GetKeyDown(KeyCode.A))
-        // {
-        //     AddTension(10);
-        // }
-
-        // if (Input.GetKeyDown(KeyCode.D))
-        // {
-        //     AddTension(15);
-        // }
-        // //  remove tension
-        // if (Input.GetKeyDown(KeyCode.F))
-        // {
-        //     RemoveTension(5);
-        // }
-
-        // if (Input.GetKeyDown(KeyCode.G))
-        // {
-        //     RemoveTension(10);
-        // }
-
-        // if (Input.GetKeyDown(KeyCode.H))
-        // {
-        //     RemoveTension(15);
-        // }
     }
     void RemoveTension(int damage)
     {
