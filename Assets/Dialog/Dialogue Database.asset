@@ -1267,7 +1267,7 @@ MonoBehaviour:
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.64000016
   syncInfo:
     syncActors: 0
     syncItems: 0
