@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-    public enum GameState { Menu, NewsIntro, Berkland, BattleScene, Results }
+    public enum GameState { Menu, NewsIntro, Berkland, BattleScene, Results, Transitions }
     private GameState currentState = GameState.Menu;
     public static GameManager Instance
     {
@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+
+
         if (instance != null)
         {
             Debug.LogWarning("[GameManager] There are multiple instances of GameManager.");
@@ -49,6 +51,10 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.BattleScene:
+                print("in battle scene");
+                break;
+
+            case GameState.Transitions:
                 break;
 
             case GameState.Results:
@@ -65,6 +71,7 @@ public class GameManager : MonoBehaviour
         switch (currentState)
         {
             case GameState.Menu:
+
                 SceneManager.LoadScene("Menu");
                 break;
 
