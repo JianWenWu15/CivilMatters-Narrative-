@@ -235,6 +235,28 @@ MonoBehaviour:
       type: 3}
     alternatePortraits: []
     spritePortraits: []
+  - id: 10
+    fields:
+    - title: Name
+      value: Narrator
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: -- Descriptive Text --
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
   items:
   - id: 1
     fields:
@@ -259,27 +281,27 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Alert
+      value: TentionLowAlert
       type: 0
       typeString: 
     - title: Initial Value
-      value: 
+      value: Watch Your Dialouge To Keep The Tension Down!
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
       typeString: 
-  - id: 2
+  - id: 3
     fields:
     - title: Name
-      value: 
+      value: IsAggressive
       type: 0
       typeString: 
     - title: Initial Value
-      value: 
-      type: 5
-      typeString: CustomFieldType_Actor
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
       value: 
       type: 0
@@ -1542,7 +1564,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 553.1631
-        y: 7.886345
+        y: 5.644142
         width: 160
         height: 30
     - id: 4
@@ -1572,7 +1594,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: This cop really just bumped into me and did not say sorry or anything...
+        value: 
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1619,7 +1641,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 556.1268
-        y: 67.87901
+        y: 70.12123
         width: 160
         height: 30
     - id: 5
@@ -2253,8 +2275,8 @@ MonoBehaviour:
         y: 558.3442
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.4769886
+    canvasScrollPosition: {x: 101.47478, y: 40.70506}
+    canvasZoom: 0.53898627
   syncInfo:
     syncActors: 0
     syncItems: 0

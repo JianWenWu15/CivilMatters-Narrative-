@@ -39,6 +39,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        Debug.LogWarning("[GameManager] There are multiple instances of GameManager.");
+        // switch statements
         switch (currentState)
         {
             case GameState.Menu:

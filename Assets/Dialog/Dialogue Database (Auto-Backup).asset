@@ -818,7 +818,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -903,8 +903,8 @@ MonoBehaviour:
         y: 80
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 4.0412097, y: 6.1806707}
+    canvasZoom: 1.1240001
   - id: 5
     fields:
     - title: Title
