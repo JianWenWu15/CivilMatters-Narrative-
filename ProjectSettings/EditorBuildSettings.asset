@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GH Logo.unity
     guid: e2f35d2d5ab9c8441aca438fdb40479c
   - enabled: 0
