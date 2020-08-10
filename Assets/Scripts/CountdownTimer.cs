@@ -10,6 +10,13 @@ public class CountdownTimer : MonoBehaviour
     float startingTime = 10f;
     [SerializeField] Text countdownText;
 
+    public override bool Equals(object obj)
+    {
+        return obj is CountdownTimer timer &&
+               base.Equals(obj) &&
+               EqualityComparer<Text>.Default.Equals(countdownText, timer.countdownText);
+    }
+
     void Start()
     {
         currentTime = startingTime;
