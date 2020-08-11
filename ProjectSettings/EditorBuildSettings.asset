@@ -11,10 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/newsIntro.unity
     guid: 52634861cd0234619a4476ef451c70f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/berkland.unity
     guid: 24c6b8a8f0e3e4dbd8bccb812b1e9ece
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/Character Slide.unity
+    guid: 11d2ed10886c79b46b5c0aed28f259b9
+=======
     path: Assets/Scenes/battleScene.unity
     guid: 67c3dcf1319bf42e9b7d746997c17324
+>>>>>>> demo
   m_configObjects: {}
