@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GH Logo.unity
     guid: e2f35d2d5ab9c8441aca438fdb40479c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/newsIntro.unity
     guid: 52634861cd0234619a4476ef451c70f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/berkland.unity
     guid: 24c6b8a8f0e3e4dbd8bccb812b1e9ece
+  - enabled: 1
+    path: Assets/Scenes/Character Slide.unity
+    guid: 11d2ed10886c79b46b5c0aed28f259b9
   m_configObjects: {}
