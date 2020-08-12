@@ -296,7 +296,7 @@ namespace PixelCrushers.DialogueSystem
         /// </summary>
         public virtual void UseCurrentSelection()
         {
-            if (usable != null)
+            if (usable != null && usable.enabled && usable.gameObject.activeInHierarchy)
             {
                 clickedDownOn = null;
                 if (distance <= usable.maxUseDistance)

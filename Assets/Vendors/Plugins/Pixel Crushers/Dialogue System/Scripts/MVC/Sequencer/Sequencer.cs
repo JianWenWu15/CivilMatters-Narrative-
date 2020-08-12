@@ -759,7 +759,15 @@ namespace PixelCrushers.DialogueSystem
                 var assembly = assemblies[i];
                 try
                 {
-                    assembly.GetTypes();
+                    var types = assembly.GetTypes();
+                    foreach (var type in types)
+                    {
+                        if (type.Name.StartsWith("SequencerCommand"))
+                        {
+                            var commandName = type.Name.Substring("SequencerCommand".Length);
+                            m_cachedComponentTypes[commandName] = type;
+                        }
+                    }
                 }
                 catch (Exception)
                 {

@@ -207,7 +207,7 @@ namespace PixelCrushers.DialogueSystem
             //--- Replaced by OnConversationStart: if (DialogueManager.isConversationActive) timeToEnableUseButton = Time.time + MinTimeBetweenUseButton;
 
             // If the currentUsable went missing (was destroyed, deactivated, or we changed scene), tell listeners:
-            if (toldListenersHaveUsable && (currentUsable == null || !currentUsable.gameObject.activeInHierarchy))
+            if (toldListenersHaveUsable && (currentUsable == null || !currentUsable.enabled || !currentUsable.gameObject.activeInHierarchy))
             {
                 SetCurrentUsable(null);
                 OnDeselectedUsableObject(null);
@@ -237,7 +237,7 @@ namespace PixelCrushers.DialogueSystem
         /// </summary>
         public virtual void UseCurrentSelection()
         {
-            if ((currentUsable != null) && (currentUsable.gameObject != null) && (Time.time >= timeToEnableUseButton))
+            if ((currentUsable != null) && currentUsable.enabled && (currentUsable.gameObject != null) && (Time.time >= timeToEnableUseButton))
             {
                 currentUsable.OnUseUsable();
                 var fromTransform = (actorTransform != null) ? actorTransform : this.transform;
