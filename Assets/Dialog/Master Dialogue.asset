@@ -2140,8 +2140,7 @@ MonoBehaviour:
     syncItems: 0
     syncLocations: 0
     syncVariables: 0
-    syncActorsDatabase: {fileID: 11400000, guid: c595108717b714244935de8393da191d,
-      type: 2}
+    syncActorsDatabase: {fileID: 0}
     syncItemsDatabase: {fileID: 11400000}
     syncLocationsDatabase: {fileID: 11400000}
     syncVariablesDatabase: {fileID: 11400000}

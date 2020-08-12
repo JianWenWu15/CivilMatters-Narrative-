@@ -26,7 +26,10 @@ namespace PixelCrushers.DialogueSystem.DialogueEditor
             set
             {
                 _inspectorSelection = value;
-                if ((value != null) && (instance != null)) Selection.activeObject = DialogueEditorWindow.instance.database;
+                if ((value != null) && (instance != null) && (EditorWindow.focusedWindow == instance))
+                {
+                    Selection.activeObject = DialogueEditorWindow.instance.database;
+                }
                 if (DialogueDatabaseEditor.instance != null) DialogueDatabaseEditor.instance.Repaint();
             }
         }
@@ -45,7 +48,7 @@ namespace PixelCrushers.DialogueSystem.DialogueEditor
         private bool debug = false;
 
         [SerializeField]
-        private bool registerCompleteObjectUndo = false;
+        private bool registerCompleteObjectUndo = true;
 
         private bool verboseDebug = false;
 

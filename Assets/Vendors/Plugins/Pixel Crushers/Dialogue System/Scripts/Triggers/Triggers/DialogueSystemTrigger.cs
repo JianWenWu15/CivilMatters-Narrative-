@@ -259,7 +259,7 @@ namespace PixelCrushers.DialogueSystem
         [Tooltip("Stop conversation if actor leaves trigger area.")]
         public bool stopConversationOnTriggerExit = false;
 
-        [Tooltip("Stop conversation if player exceeds Max Conversation Distance.")]
+        [Tooltip("Stop conversation if Conversation Actor exceeds Max Conversation Distance from this trigger.")]
         public bool stopConversationIfTooFar = false;
 
         [Tooltip("If Stop Conversation If Too Far is ticked, this is too far.")]
@@ -853,7 +853,7 @@ namespace PixelCrushers.DialogueSystem
                 if (conversantTransform == null)
                 {
                     var conversationAsset = DialogueManager.MasterDatabase.GetConversation(conversation);
-                    var conversationConversantActor = DialogueManager.MasterDatabase.GetActor(conversationAsset.ConversantID);
+                    var conversationConversantActor = (conversationAsset != null) ? DialogueManager.MasterDatabase.GetActor(conversationAsset.ConversantID) : null;
                     var registeredTransform = (conversationConversantActor != null) ? CharacterInfo.GetRegisteredActorTransform(conversationConversantActor.Name) : null;
                     conversantTransform = (registeredTransform != null) ? registeredTransform : this.transform;
                 }

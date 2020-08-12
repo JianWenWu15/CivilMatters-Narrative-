@@ -21,7 +21,7 @@ using PixelCrushers.DialogueSystem;
 // You can use these functions as models and then replace them with your own.
 public class TemplateCustomLua : MonoBehaviour // Rename this class.
 {
-    [Tooltip("Typically leave unticked so temporary Dialogue Manager's don't unregister your functions.")]
+    [Tooltip("Typically leave unticked so temporary Dialogue Managers don't unregister your functions.")]
     public bool unregisterOnDisable = false;
 
     void OnEnable()

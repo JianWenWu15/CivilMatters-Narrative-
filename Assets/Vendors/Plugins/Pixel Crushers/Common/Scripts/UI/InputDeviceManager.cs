@@ -47,6 +47,11 @@ namespace PixelCrushers
         [Tooltip("If any of these keys are pressed, current device is keyboard (unless device is currently mouse).")]
         public KeyCode[] keyCodesToCheck = new KeyCode[] { KeyCode.Escape };
 
+        public enum KeyInputSwitchesModeTo { Keyboard, Mouse }
+
+        [Tooltip("Which mode to switch to if user presses Key Buttons/Codes To Check.")]
+        public KeyInputSwitchesModeTo keyInputSwitchesModeTo = KeyInputSwitchesModeTo.Mouse;
+
         [Tooltip("Always enable joystick/keyboard navigation even in Mouse mode.")]
         public bool alwaysAutoFocus = false;
 
@@ -254,7 +259,7 @@ namespace PixelCrushers
             {
                 case InputDevice.Joystick:
                     if (IsUsingMouse()) SetInputDevice(InputDevice.Mouse);
-                    else if (IsUsingKeyboard()) SetInputDevice(InputDevice.Mouse);
+                    else if (IsUsingKeyboard()) SetInputDevice((keyInputSwitchesModeTo == KeyInputSwitchesModeTo.Keyboard) ? InputDevice.Keyboard : InputDevice.Mouse);
                     break;
                 case InputDevice.Keyboard:
                     if (IsUsingMouse()) SetInputDevice(InputDevice.Mouse);
@@ -262,6 +267,7 @@ namespace PixelCrushers
                     break;
                 case InputDevice.Mouse:
                     if (IsUsingJoystick()) SetInputDevice(InputDevice.Joystick);
+                    else if (keyInputSwitchesModeTo == KeyInputSwitchesModeTo.Keyboard && IsUsingKeyboard()) SetInputDevice(InputDevice.Keyboard);
                     break;
                 case InputDevice.Touch:
                     if (IsUsingMouse()) SetInputDevice(InputDevice.Mouse);
