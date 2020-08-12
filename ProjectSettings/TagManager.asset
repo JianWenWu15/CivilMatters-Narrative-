@@ -14,9 +14,9 @@ TagManager:
   - 
   - 
   - Music
-  - 
-  - 
-  - 
+  - NPC
+  - Player
+  - cameraConfiner
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: bubbleDialouge
+    uniqueID: 75496581
+    locked: 0
+  - name: Player
+    uniqueID: 1854573105
+    locked: 0
+  - name: Tention
+    uniqueID: 1499634311
     locked: 0

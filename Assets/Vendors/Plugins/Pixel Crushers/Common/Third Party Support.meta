@@ -1,23 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 53dfd182f9f787140a17f09e7c82ed19
-folderAsset: yes
-=======
-<<<<<<<< HEAD:Assets/Vendors/Plugins/Pixel Crushers/Common/Third Party Support.meta
 guid: 2ba9d49e92eb6394db6421e98e067818
 folderAsset: yes
-========
-<<<<<<< HEAD
-guid: 107656dc7c8decd4b98ddacdb4c63d9c
-=======
-<<<<<<< HEAD:Assets/Vendors/Plugins/Ilumisoft/VisualStateMachine/Documentation/Visual State Machine Documentation.pdf.meta
-guid: 33e4025305391a7449852c511de7861a
-=======
-guid: 107656dc7c8decd4b98ddacdb4c63d9c
->>>>>>> demo:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Corgi Support.unitypackage.meta
->>>>>>> demo
->>>>>>>> 54d484def97e853f4f7ac323198bea70d450f66a:Assets/Vendors/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Corgi Support.unitypackage.meta
->>>>>>> 54d484def97e853f4f7ac323198bea70d450f66a
 DefaultImporter:
   externalObjects: {}
   userData: 
