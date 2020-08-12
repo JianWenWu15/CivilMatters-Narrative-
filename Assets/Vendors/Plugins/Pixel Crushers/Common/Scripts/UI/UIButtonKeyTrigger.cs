@@ -68,7 +68,7 @@ namespace PixelCrushers
         private bool IsBeingClickedBySubmit()
         {
             return EventSystem.current != null &&
-                EventSystem.current.currentSelectedGameObject != m_selectable.gameObject &&
+                EventSystem.current.currentSelectedGameObject == m_selectable.gameObject &&
                 InputDeviceManager.instance != null &&
                 InputDeviceManager.IsButtonDown(InputDeviceManager.instance.submitButton);
         }

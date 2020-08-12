@@ -113,6 +113,7 @@ namespace PixelCrushers.DialogueSystem
         protected StandardUITimer m_timer = null;
         protected System.Action m_timeoutHandler = null;
         protected CanvasGroup m_mainCanvasGroup = null;
+        protected static bool s_isInputDisabled = false;
 
         #endregion
 
@@ -159,6 +160,10 @@ namespace PixelCrushers.DialogueSystem
             {
                 DisableInput();
                 Invoke("EnableInput", blockInputDuration);
+            }
+            else
+            {
+                if (s_isInputDisabled) EnableInput();
             }
         }
 
@@ -487,7 +492,7 @@ namespace PixelCrushers.DialogueSystem
         /// clicked to make sure the player can't click another one while the
         /// menu is playing its hide animation.
         /// </summary>
-        public void MakeButtonsNonclickable()
+        public virtual void MakeButtonsNonclickable()
         {
             for (int i = 0; i < instantiatedButtons.Count; i++)
             {
@@ -517,6 +522,7 @@ namespace PixelCrushers.DialogueSystem
 
         protected void SetInput(bool value)
         {
+            s_isInputDisabled = (value == false);
             if (m_mainCanvasGroup == null)
             {
                 var ui = GetComponentInParent<StandardDialogueUI>();
@@ -526,7 +532,11 @@ namespace PixelCrushers.DialogueSystem
                 m_mainCanvasGroup = mainPanel.GetComponent<CanvasGroup>() ?? mainPanel.gameObject.AddComponent<CanvasGroup>();
             }
             m_mainCanvasGroup.interactable = value;
-            EventSystem.current.GetComponent<StandaloneInputModule>().enabled = value;
+            if (EventSystem.current != null)
+            {
+                var inputModule = EventSystem.current.GetComponent<PointerInputModule>();
+                if (inputModule != null) inputModule.enabled = value;
+            }
             UIButtonKeyTrigger.monitorInput = value;
         }
         #endregion

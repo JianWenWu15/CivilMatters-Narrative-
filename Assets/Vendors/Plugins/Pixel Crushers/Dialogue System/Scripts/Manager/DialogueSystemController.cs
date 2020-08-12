@@ -61,7 +61,10 @@ namespace PixelCrushers.DialogueSystem
         /// loaded only before the first time they're needed.
         /// </summary>
         [Tooltip("Preload the dialogue database and dialogue UI at Start. Otherwise they're loaded at first use.")]
-        public bool preloadResources = false;
+        public bool preloadResources = true;
+
+        [Tooltip("Warm up the conversation engine and dialogue UI at Start to avoid a small amount of overhead on first use.")]
+        public bool warmUpConversationController = false;
 
         [Tooltip("Use a copy of the dialogue database at runtime instead of the asset file directly. This allows you to change the database without affecting the asset.")]
         public bool instantiateDatabase = true;
@@ -312,7 +315,7 @@ namespace PixelCrushers.DialogueSystem
             {
                 // Otherwise initialize this one:
                 getInputButtonDown = StandardGetInputButtonDown;
-                if (instantiateDatabase && initialDatabase != null)
+                if ((instantiateDatabase || warmUpConversationController) && initialDatabase != null)
                 {
                     var databaseInstance = Instantiate(initialDatabase) as DialogueDatabase;
                     databaseInstance.name = initialDatabase.name;
@@ -434,6 +437,7 @@ namespace PixelCrushers.DialogueSystem
             StartCoroutine(MonitorAlerts());
             m_started = true;
             if (preloadResources) PreloadResources();
+            if (warmUpConversationController) WarmUpConversationController();
             QuestLog.RegisterQuestLogFunctions();
             RegisterLuaFunctions();
             m_isInitialized = true;
@@ -673,6 +677,69 @@ namespace PixelCrushers.DialogueSystem
             PreloadMasterDatabase();
             PreloadDialogueUI();
             Sequencer.Preload();
+        }
+
+        /// <summary>
+        /// Stop and start a fake conversation to initialize things to avoid a small delay the first time a conversation starts.
+        /// </summary>
+        public void WarmUpConversationController()
+        {
+            if (isConversationActive) return;
+
+            // Get the dialogue UI canvas:
+            var abstractDialogueUI = dialogueUI as AbstractDialogueUI;
+            if (abstractDialogueUI == null) return;
+            var canvas = abstractDialogueUI.GetComponentInParent<Canvas>();
+            if (canvas == null) return;
+
+            // Make it temporarily invisible:
+            var canvasGroup = abstractDialogueUI.GetComponent<CanvasGroup>();
+            var addTempCanvasGroup = canvasGroup == null;
+            if (addTempCanvasGroup) canvasGroup = abstractDialogueUI.gameObject.AddComponent<CanvasGroup>();
+            var previousAlpha = canvasGroup.alpha;
+            canvasGroup.alpha = 0;
+            var previousLogLevel = DialogueDebug.level;
+            DialogueDebug.level = DialogueDebug.DebugLevel.None;
+            try
+            {
+                var fakeConversation = new Conversation();
+                const int FakeConversationID = -1;
+                const string FakeConversationTitle = "__Internal_Warmup__";
+                fakeConversation.id = FakeConversationID;
+                fakeConversation.fields = new List<Field>();
+                fakeConversation.fields.Add(new Field("Title", FakeConversationTitle, FieldType.Text));
+                var entry = new DialogueEntry();
+                entry.conversationID = fakeConversation.id;
+                entry.id = 0;
+                fakeConversation.dialogueEntries.Add(entry);
+                masterDatabase.conversations.Add(fakeConversation);
+                try
+                {
+                    var model = new ConversationModel(databaseManager.masterDatabase, FakeConversationTitle, null, null, false, null);
+                    var view = this.gameObject.AddComponent<ConversationView>();
+                    view.Initialize(dialogueUI, GetNewSequencer(), displaySettings, OnDialogueEntrySpoken);
+                    view.SetPCPortrait(model.GetPCSprite(), model.GetPCName());
+                    var controller = new ConversationController();
+                    controller.Initialize(model, view, displaySettings.inputSettings.alwaysForceResponseMenu, OnEndConversation);
+                    controller.Close();
+                }
+                finally
+                {
+                    masterDatabase.conversations.Remove(fakeConversation);
+                }
+            }
+            finally
+            {
+                DialogueDebug.level = previousLogLevel;
+                if (addTempCanvasGroup)
+                {
+                    Destroy(canvasGroup);
+                }
+                else
+                {
+                    canvasGroup.alpha = previousAlpha;
+                }
+            }
         }
 
         /// <summary>
@@ -1026,29 +1093,31 @@ namespace PixelCrushers.DialogueSystem
         {
             // Find and remove the record associated with the ConversationController:
             var record = m_activeConversations.Find(r => r.conversationController == endingConversationController);
-
-            m_activeConversations.Remove(record);
-
-            // Promote a remaining active conversation, or clear out the active conversation properties:
-            if (m_activeConversations.Count > 0)
+            if (record != null)
             {
-                var nextRecord = m_activeConversations[0];
-                m_conversationController = nextRecord.conversationController;
-                currentActor = nextRecord.actor;
-                currentConversant = nextRecord.conversant;
-            }
-            else
-            {
-                m_conversationController = null;
-                currentActor = null;
-                currentConversant = null;
-            }
+                m_activeConversations.Remove(record);
 
-            // Restore UI:
-            m_originalDialogueUI = record.originalDialogueUI;
-            m_originalDisplaySettings = record.originalDisplaySettings;
-            m_isOverrideUIPrefab = record.isOverrideUIPrefab;
-            RestoreOriginalUI();
+                // Promote a remaining active conversation, or clear out the active conversation properties:
+                if (m_activeConversations.Count > 0)
+                {
+                    var nextRecord = m_activeConversations[0];
+                    m_conversationController = nextRecord.conversationController;
+                    currentActor = nextRecord.actor;
+                    currentConversant = nextRecord.conversant;
+                }
+                else
+                {
+                    m_conversationController = null;
+                    currentActor = null;
+                    currentConversant = null;
+                }
+
+                // Restore UI:
+                m_originalDialogueUI = record.originalDialogueUI;
+                m_originalDisplaySettings = record.originalDisplaySettings;
+                m_isOverrideUIPrefab = record.isOverrideUIPrefab;
+                RestoreOriginalUI();
+            }
 
             // End of conversation checks:
             m_luaWatchers.NotifyObservers(LuaWatchFrequency.EndOfConversation);

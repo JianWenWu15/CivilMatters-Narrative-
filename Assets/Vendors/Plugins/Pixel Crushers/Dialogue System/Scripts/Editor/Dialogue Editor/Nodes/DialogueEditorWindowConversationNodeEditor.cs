@@ -577,6 +577,7 @@ namespace PixelCrushers.DialogueSystem.DialogueEditor
                 if (actorIsPlayerCache == null) actorIsPlayerCache = new Dictionary<int, bool>();
                 if (actorCustomColorCache == null) actorCustomColorCache = new Dictionary<int, Color>();
                 if (!actorHasCustomColorCache.ContainsKey(actorID) || 
+                    !actorCustomColorCache.ContainsKey(actorID) || 
                     (actorCustomColorCache.ContainsKey(actorID) && (actorCustomColorCache[actorID].a == 0)))
                 {
                     var actor = database.GetActor(actorID);
@@ -610,7 +611,13 @@ namespace PixelCrushers.DialogueSystem.DialogueEditor
                     // Use actor's custom color:
                     isCustomColor = true;
                     customColor = actorCustomColorCache[actorID];
-                    if (m_customNodeStyle == null)
+                    if (customColor.a == 0)
+                    {
+                        actorHasCustomColorCache.Remove(actorID);
+                        actorCustomColorCache.Remove(actorID);
+                        customColor = Color.gray;
+                    }
+                    if (m_customNodeStyle == null || m_customNodeStyle.normal.background == null)
                     {
 #if UNITY_2019_3_OR_NEWER
                         m_customNodeStyle = new GUIStyle(GUI.skin.button);
@@ -647,6 +654,8 @@ namespace PixelCrushers.DialogueSystem.DialogueEditor
             bool isCustomColor;
             Color customColor;
             GetNodeStyle(entry, out nodeStyle, out isSelected, out isCustomColor, out customColor);
+
+            if (isCustomColor && customColor.a == 0) customColor = Color.gray; // Safeguard.
 
             string nodeLabel = GetDialogueEntryNodeText(entry);
             if (showQuickDialogueTextEntry && entry == currentEntry) nodeLabel = string.Empty;
