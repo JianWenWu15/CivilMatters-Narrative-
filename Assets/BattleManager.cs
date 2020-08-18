@@ -41,7 +41,6 @@ public class BattleManager : MonoBehaviour
     {
         narrativeAnimator.SetBool("narrativeOpen", true);
         nameText.text = narrative.name;
-
         sentences.Clear();
 
         foreach (string sentence in narrative.sentences)

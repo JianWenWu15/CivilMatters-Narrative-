@@ -9,6 +9,11 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerDialogue()
     {
         FindObjectOfType<BattleManager>().StartDialogue(dialogue);
+        // if dialouge ends
+    }
+
+    public void TriggerNarrative()
+    {
         FindObjectOfType<BattleManager>().StartNarrative(narrative);
     }
 }
