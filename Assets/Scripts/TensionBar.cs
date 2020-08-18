@@ -8,10 +8,7 @@ public class TensionBar : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-    public void SetTension(int tension)
-    {
-        slider.value = tension;
-    }
+
     public void SetMaxTension(int tension)
     {
         slider.maxValue = tension;
@@ -19,7 +16,7 @@ public class TensionBar : MonoBehaviour
 
         fill.color = gradient.Evaluate(1f);
     }
-    public void SetHealth(int tension)
+    public void SetTension(int tension)
     {
         slider.value = tension;
         fill.color = gradient.Evaluate(slider.normalizedValue);
