@@ -5,20 +5,17 @@ using UnityEngine.SceneManagement;
 public class MoveScene2D : MonoBehaviour
 {
     [SerializeField] public string newLevel;
-    public bool isAdditive = false;
+    public bool isAdditive;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if (isAdditive == false)
+            if (isAdditive == enabled)
             {
                 SceneManager.LoadScene(newLevel);
             }
-            else
-            {
-                SceneManager.LoadScene(newLevel);
-            }
+            
 
         }
     }
