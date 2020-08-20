@@ -7,14 +7,12 @@ public class PlayerBattle : MonoBehaviour
     public int maxTension = 100;
     public int currentTension;
     public TensionBar tensionBar;
-    // Start is called before the first frame update
+
     void Start()
     {
-        currentTension = maxTension;
+        currentTension = maxTension / 2;
         tensionBar.SetMaxTension(maxTension);
     }
-
-    // Update is called once per frame
     void Update()
     {
         // add tension
@@ -22,15 +20,19 @@ public class PlayerBattle : MonoBehaviour
         {
             AddTension(5);
         }
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            RemoveTension(5);
+        }
     }
     void RemoveTension(int damage)
     {
         currentTension -= damage;
-        tensionBar.SetHealth(currentTension);
+        tensionBar.SetTension(currentTension);
     }
     void AddTension(int damage)
     {
         currentTension += damage;
-        tensionBar.SetHealth(currentTension);
+        tensionBar.SetTension(currentTension);
     }
 }
