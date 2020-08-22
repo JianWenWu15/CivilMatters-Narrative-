@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583657005330426483}
   - component: {fileID: 5417867095675116266}
+  - component: {fileID: 4273065939205345201}
   m_Layer: 0
   m_Name: Police (6)
   m_TagString: Untagged
@@ -82,6 +83,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4273065939205345201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832926072718676701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d82c0b654598ee4f994536ac5f5a203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newLevel: battleScene
+  isAdditive: 0
 --- !u!1 &996138523325858629
 GameObject:
   m_ObjectHideFlags: 0
