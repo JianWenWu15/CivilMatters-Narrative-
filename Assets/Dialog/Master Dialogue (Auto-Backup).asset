@@ -825,7 +825,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: Hey, if your're gonna be around, take this over to Dominics for me,
-          he's been through some touch times with the protest.
+          he's been through some tough times with the protest.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -935,7 +935,7 @@ MonoBehaviour:
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.1
+    canvasZoom: 0.4000001
   - id: 2
     fields:
     - title: Title
@@ -1474,8 +1474,8 @@ MonoBehaviour:
         y: 351
         width: 160
         height: 30
-    canvasScrollPosition: {x: 12.759322, y: 22.186031}
-    canvasZoom: 0.9349983
+    canvasScrollPosition: {x: 0, y: 7.087988}
+    canvasZoom: 0.21499872
   - id: 3
     fields:
     - title: Title
