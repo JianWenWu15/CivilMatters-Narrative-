@@ -776,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8b685e62a9aeb4a9472b30ec2d86d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDatabase: {fileID: 11400000, guid: 03008dd3e54ddec4cadec462d023519d, type: 2}
+  initialDatabase: {fileID: 0}
   displaySettings:
     conversationOverrideSettings:
       useOverrides: 0
@@ -861,6 +861,7 @@ MonoBehaviour:
   allowSimultaneousConversations: 0
   includeSimStatus: 0
   preloadResources: 1
+  warmUpConversationController: 0
   instantiateDatabase: 0
   dontDestroyOnLoad: 1
   allowOnlyOneInstance: 1
@@ -903,6 +904,7 @@ MonoBehaviour:
   joystickAxisThreshold: 0.5
   keyButtonsToCheck: []
   keyCodesToCheck: 1b000000
+  keyInputSwitchesModeTo: 1
   alwaysAutoFocus: 0
   detectMouseControl: 1
   mouseMoveThreshold: 0.1
