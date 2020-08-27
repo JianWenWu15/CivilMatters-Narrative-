@@ -1436,7 +1436,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Oh thanks, If you see that '
+        value: Oh thanks.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1474,8 +1474,8 @@ MonoBehaviour:
         y: 351
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 7.087988}
-    canvasZoom: 0.21499872
+    canvasScrollPosition: {x: 334.11368, y: 208.47075}
+    canvasZoom: 0.7549985
   - id: 3
     fields:
     - title: Title
@@ -2172,11 +2172,11 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Actor
-      value: 4
+      value: 1
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: -1
+      value: 4
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
@@ -2214,11 +2214,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2297,11 +2297,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2364,11 +2364,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2429,11 +2429,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2475,7 +2475,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 436
+        x: 437.03088
         y: 83
         width: 160
         height: 30
