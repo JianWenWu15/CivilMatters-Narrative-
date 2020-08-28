@@ -21,6 +21,7 @@ public class playerMovement : MonoBehaviour
         animator.SetFloat("horizontal", movement.x);
         animator.SetFloat("vertical", movement.y);
         animator.SetFloat("speed", movement.sqrMagnitude);
+
     }
 
     // defaults to 50 times a second
