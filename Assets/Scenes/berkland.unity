@@ -5594,7 +5594,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -6736,7 +6736,29 @@ MonoBehaviour:
           m_CallState: 2
     onConversationEnd:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1830501460}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 664516880}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onConversationCancelled:
       m_PersistentCalls:
         m_Calls: []
@@ -10394,12 +10416,12 @@ PrefabInstance:
     - target: {fileID: 5503722135448921797, guid: ea21749b1deed22439725cf86022f21c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.20042968
+      value: -0.20042396
       objectReference: {fileID: 0}
     - target: {fileID: 5503722135448921797, guid: ea21749b1deed22439725cf86022f21c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7105336
+      value: 0.71054506
       objectReference: {fileID: 0}
     - target: {fileID: 5503722135448921818, guid: ea21749b1deed22439725cf86022f21c,
         type: 3}
@@ -10949,6 +10971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bigMainGroupProtestors
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354554276825058827, guid: 866c417981c7b7648b0397b8d9b9a1d2,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.527
       objectReference: {fileID: 0}
     - target: {fileID: 6369489853350934829, guid: 866c417981c7b7648b0397b8d9b9a1d2,
         type: 3}
@@ -12914,7 +12941,29 @@ MonoBehaviour:
           m_CallState: 2
     onConversationEnd:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 8681481179465248642}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 180468305331616432}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onConversationCancelled:
       m_PersistentCalls:
         m_Calls: []
