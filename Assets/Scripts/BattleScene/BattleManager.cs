@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class BattleManager : MonoBehaviour
 {
     float currentTime = 0f;
@@ -19,8 +18,13 @@ public class BattleManager : MonoBehaviour
     private Queue<string> sentences;
     void Start()
     {
+        // set sentences
         sentences = new Queue<string>();
+
+        // initiate timer
         currentTime = startingTime;
+
+        // define state of animations
         beginAnimator.SetBool("begin", true);
         decisionAnimator.SetBool("DecisionTime", true);
     }
@@ -70,6 +74,11 @@ public class BattleManager : MonoBehaviour
     }
     void update()
     {
+        if (Input.GetKeyDown("Return"))
+        {
+            print("A return key was pressed down");
+            //do some more code
+        }
         //if  dicisionAnimator.SetBool("decisionTime") = falses
         // {
         //     currentTime -= 1 * Time.deltaTime;
