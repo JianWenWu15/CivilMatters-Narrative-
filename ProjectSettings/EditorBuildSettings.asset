@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 45d55396119efb044aebb0c0b7cae6bb
   - enabled: 1
+    path: Assets/Scenes/howToPlay.unity
+    guid: 798e0176be1b44741987e2764e0e18cf
+  - enabled: 1
     path: Assets/Scenes/berkland.unity
     guid: 24c6b8a8f0e3e4dbd8bccb812b1e9ece
-  - enabled: 1
-    path: Assets/Scenes/battleScene.unity
-    guid: 67c3dcf1319bf42e9b7d746997c17324
   - enabled: 1
     path: Assets/Scenes/End Credits.unity
     guid: 79e5a43406a644974b983a50250dd094
