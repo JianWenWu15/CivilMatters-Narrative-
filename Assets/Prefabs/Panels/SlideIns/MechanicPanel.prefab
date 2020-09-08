@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 6698785240046677621}
   - component: {fileID: 6698785240046677620}
   - component: {fileID: 6698785240046677622}
+  - component: {fileID: 8226623233330101911}
   m_Layer: 5
   m_Name: MechanicPanel
   m_TagString: Untagged
@@ -350,8 +351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 451.5, y: -479}
-  m_SizeDelta: {x: 903.0025, y: 58.10131}
+  m_AnchoredPosition: {x: 572.49994, y: -640.6}
+  m_SizeDelta: {x: 1145, y: 6.9385986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6698785240046677621
 CanvasRenderer:
@@ -415,6 +416,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &8226623233330101911
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6698785240046677608}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9be14976c81d984b8a860efa88a40cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6698785240135384717
 GameObject:
   m_ObjectHideFlags: 0
