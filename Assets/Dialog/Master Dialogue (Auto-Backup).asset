@@ -17,19 +17,35 @@ MonoBehaviour:
   description: 
   globalUserScript: 
   emphasisSettings:
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
     bold: 0
     italic: 0
     underline: 0
-  - color: {r: 1, g: 0, b: 0, a: 1}
+  - color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
     bold: 0
     italic: 0
     underline: 0
-  - color: {r: 0, g: 1, b: 0, a: 1}
+  - color:
+      r: 0
+      g: 1
+      b: 0
+      a: 1
     bold: 0
     italic: 0
     underline: 0
-  - color: {r: 0, g: 0, b: 1, a: 1}
+  - color:
+      r: 0
+      g: 0
+      b: 1
+      a: 1
     bold: 0
     italic: 0
     underline: 0
@@ -438,8 +454,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 25
         width: 160
@@ -509,8 +525,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 86
         width: 160
@@ -580,8 +596,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 136
         width: 160
@@ -652,8 +668,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 186
         width: 160
@@ -724,8 +740,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 236
         width: 160
@@ -795,8 +811,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 193
         y: 286
         width: 160
@@ -867,8 +883,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 194.51544
         y: 348.00864
         width: 160
@@ -938,8 +954,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 194.51544
         y: 398.00864
         width: 160
@@ -1010,8 +1026,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 194.51544
         y: 448.00864
         width: 160
@@ -1075,8 +1091,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 194.51544
         y: 498.00864
         width: 160
@@ -1190,8 +1206,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 342
         y: 16
         width: 160
@@ -1265,8 +1281,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 342
         y: 86.93048
         width: 160
@@ -1336,8 +1352,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 342
         y: 145
         width: 160
@@ -1407,8 +1423,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 342
         y: 194
         width: 160
@@ -1478,8 +1494,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 343
         y: 251
         width: 160
@@ -1549,8 +1565,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 343
         y: 301
         width: 160
@@ -1623,8 +1639,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 346.02457
         y: 351
         width: 160
@@ -1694,8 +1710,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 346.02457
         y: 401
         width: 160
@@ -1767,8 +1783,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 346.02457
         y: 451
         width: 160
@@ -1838,8 +1854,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 346.02457
         y: 501
         width: 160
@@ -1904,8 +1920,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 346.02457
         y: 551
         width: 160
@@ -2019,8 +2035,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 553.1631
         y: 7.886345
         width: 160
@@ -2124,8 +2140,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 584.8445
         y: 64.94289
         width: 160
@@ -2189,8 +2205,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 771.67285
         y: 366.83072
         width: 160
@@ -2254,8 +2270,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 239.5451
         y: 203.93408
         width: 160
@@ -2325,8 +2341,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 482.57202
         y: 440.971
         width: 160
@@ -2390,8 +2406,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 360.6808
         y: 323.96097
         width: 160
@@ -2455,8 +2471,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 969.9312
         y: 364.01636
         width: 160
@@ -2520,8 +2536,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 1172.7635
         y: 366.0601
         width: 160
@@ -2585,8 +2601,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 419.71036
         y: 555.5074
         width: 160
@@ -2712,8 +2728,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 221
         y: 26
         width: 160
@@ -2785,8 +2801,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 27.030922
         y: 85
         width: 160
@@ -2850,8 +2866,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 228
         y: 85
         width: 160
@@ -2915,8 +2931,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 437.03088
         y: 83
         width: 160
@@ -2982,8 +2998,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 27.030922
         y: 135
         width: 160
@@ -3109,8 +3125,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 205
         y: 19
         width: 160
@@ -3182,8 +3198,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 20
         y: 80
         width: 160
@@ -3247,8 +3263,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 207
         y: 77
         width: 160
@@ -3312,8 +3328,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 396
         y: 77
         width: 160
@@ -3379,8 +3395,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 20
         y: 130
         width: 160
@@ -3506,8 +3522,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 222
         y: 22
         width: 160
@@ -3577,8 +3593,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 20
         y: 80
         width: 160
@@ -3642,8 +3658,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 224
         y: 80
         width: 160
@@ -3707,8 +3723,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 441
         y: 76
         width: 160
@@ -3774,8 +3790,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 20
         y: 130
         width: 160
@@ -3889,8 +3905,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 147
         y: 10
         width: 160
@@ -3964,8 +3980,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 147.84746
         y: 60
         width: 160
@@ -4029,8 +4045,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 147.84746
         y: 110
         width: 160
@@ -4144,8 +4160,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 30
         y: 10
         width: 160
@@ -4215,8 +4231,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 30
         y: 60
         width: 160
@@ -4280,8 +4296,8 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls: []
+        m_CallsDirty: 1
       canvasRect:
-        serializedVersion: 2
         x: 30
         y: 111
         width: 160
